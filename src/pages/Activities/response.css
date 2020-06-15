@@ -1,0 +1,116 @@
+@media (max-width: 990px) {
+    .modal-content  {
+        padding: 20px 20px;
+    }
+
+    .modal-content .modal-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 645px) {
+    .activity-container {
+        height: 200px;
+    }
+
+    .activity-container .container-top span {
+        margin-right: 0;
+    }
+
+    .activity-container .container-top {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+
+        margin: 20px 0;
+    }
+
+    .activity-container .container-top .button {
+        margin: 15px 0;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-container h1 {
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+
+    .menu-container .info-priority h2 {
+        margin: 0;
+    }
+
+    .menu-container .info-priority {
+        display: flex;
+        align-items: center;
+    }
+
+    #modal .modal-content .modal-title h1 {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    #modal .modal-content .modal-text p {
+        margin: 10px 15px;
+    }
+
+    #modal .modal-content .button-back {
+        padding: 8px 12px;
+        margin-right: 15px;
+    }
+
+    #modal .modal-content .button-exit {
+        padding: 8px 12px;
+    }
+
+    .containerCards h4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerCards h4 strong {
+        margin-left: 5px;
+    }
+
+    .containerCards ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content .modal-text p {
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 305px) {
+    .activity-container{
+        height: 250px;
+    }
+
+    .container-top .button {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 580px) {
+    .containerCards ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    .containerCards ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-height: 650px) {
+    #modal .modal-content .modal-text p {
+        margin: 45px 13px;
+    }
+}

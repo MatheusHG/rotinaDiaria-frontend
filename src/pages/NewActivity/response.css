@@ -1,0 +1,29 @@
+@media (max-width: 800px) {
+    .content-left {
+        display: none;
+    }
+}
+
+@media (max-width: 412px) {
+    .content-right h1 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 382px) {
+    .content .block {
+        height: 90vh;
+        padding: 10px 0;
+    }
+    .content .block .content-right h1 {
+        margin-bottom: 0;
+    }
+
+    .content .block .content-right .content-form {
+        height: 70vh;
+    }
+
+    .content-form input {
+        margin-left: 12px;
+    }
+}
