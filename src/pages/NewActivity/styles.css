@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+* {
+    display: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Monteserrat', sans-serif;;
+}
+
+.content {
+    width: 100%;
+    max-width: 1120px;
+    height: 90vh;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-top h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .content-top {
+    display: flex;
+    align-items: center;
+
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.content .content-top img {
+    margin-right: 10px;
+}
+
+.block {
+    width: 90%;
+    max-width: 1000px;
+    height: 80vh;
+
+    padding: 50px;
+    margin: auto;
+
+    display: flex;
+
+    background: linear-gradient(to right,#5ad0c6, #7e42e0);
+
+    border-radius: 50px;
+
+    box-shadow: 2px 1px 10px #000;
+    -webkit-box-shadow: 2px 1px 10px #000;
+    -moz-box-shadow: 2px 1px 10px #000;
+}
+
+.content-left {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content-left strong {
+    padding: 40px 40px;
+    font-size: 20px;
+
+    font-weight: lighter;
+
+    color: white;
+}
+
+.content-right {
+    width: 100%;
+}
+
+.content-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.content-right .content-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+
+    align-items: center;
+}
+
+.content-form{
+    background-color: transparent;
+}
+
+.content-form input {
+    width: 90%;
+    margin: 8px 0;
+    margin-left: 25px;
+    padding: 8px;
+}
+
+.content-form select {
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.content-form #button-submit {
+    margin-top: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+    box-shadow: 0px 0px 5px #fff;
+    -webkit-box-shadow: 0px 0px 5px #fff;
+    -moz-box-shadow: 0px 0px 5px #fff;
+    
+}
+
+.content-form #button-submit:hover {
+    background-color: #e95483;
+}
+
+.content-form .field {
+    width: 125%;  
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    width: 125%;
+}

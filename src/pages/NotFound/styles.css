@@ -1,0 +1,20 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .h4 {
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.content .backHome button {
+    transition: 0.6s;
+    background-color: #7e42e0;
+
+    margin-bottom: 30px;
+}
+
+.content .backHome button:hover {
+    background-color: #7f42e0cc;
+}
