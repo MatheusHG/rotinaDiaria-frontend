@@ -52,7 +52,7 @@ export default function Login() {
 
         try {
             const response = await api.post('/auth/authenticate', { user, password })
-            //console.log(response.data.token)
+            
             localStorage.setItem('token', response.data.token)
             localStorage.setItem('user', user)
             localStorage.setItem('id', response.data.userConst._id)
