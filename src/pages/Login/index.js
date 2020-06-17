@@ -32,7 +32,7 @@ export default function Login() {
         }
 
         try {
-            const resposta = await api.post('/register', dados)
+            const resposta = await api.post('/auth/register', dados)
 
             localStorage.setItem('token', resposta.data.token)
             localStorage.setItem('user', resposta.data.userConst.user)
@@ -51,7 +51,7 @@ export default function Login() {
         e.preventDefault()
 
         try {
-            const response = await api.post('/authenticate', { user, password })
+            const response = await api.post('/auth/authenticate', { user, password })
             
             localStorage.setItem('token', response.data.token)
             localStorage.setItem('user', user)
