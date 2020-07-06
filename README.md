@@ -37,5 +37,6 @@ npm start
 ## TECNOLOGIAS USADAS
 
 ### O projeto foi foi desenvolvido com base nas seguintes tecnologias:
+- [JavaScript](https://www.javascript.com/)
 - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
 - [Bootstrap](https://getbootstrap.com/)
